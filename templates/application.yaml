@@ -38,6 +38,7 @@
 
 imports:
 - path: application.py
+- path: container_vm.py
 
 resources:
 - name: nodejs
