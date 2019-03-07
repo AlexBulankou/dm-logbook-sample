@@ -43,8 +43,8 @@ resources:
 - name: nodejs
   type: application.py
   properties:
-    primaryZone: ZONE_TO_RUN
-    secondaryZone: SECOND_ZONE_TO_RUN
+    primaryZone: us-west2-a
+    secondaryZone: us-west2-b
     backendImage: gcr.io/deployment-manager-examples/mysql
     frontendImage: gcr.io/deployment-manager-examples/nodejsservice
     staticImage: gcr.io/deployment-manager-examples/nodejsservicestatic
